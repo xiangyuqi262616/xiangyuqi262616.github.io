@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400" role="img" aria-label="‚àb">
+  <rect width="300" height="400" fill="#ebe3d6"/>
+  <rect x="24" y="24" width="252" height="352" rx="8" fill="#fffdf9" stroke="#8b3a3a" stroke-width="2" opacity="0.35"/>
+  <text x="150" y="195" text-anchor="middle" font-family="serif" font-size="18" fill="#8b3a3a">‚àb</text>
+  <path d="M120 240 L150 210 L180 240 L150 270 Z" fill="#8b3a3a" opacity="0.25"/>
+</svg>

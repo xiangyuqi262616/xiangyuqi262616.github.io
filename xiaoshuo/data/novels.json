@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "version": 3,
+    "updated": "2026-05-22",
+    "notice": "cover 字段为各平台原站公开封面图直链（阅文 bookcover / 晋江 novelcover 等）"
+  },
+  "novels": [
+    {
+      "id": "demo-001",
+      "title": "斗破苍穹",
+      "author": "天蚕土豆",
+      "source": "起点中文网",
+      "bookId": "1209977",
+      "url": "https://www.qidian.com/book/1209977/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/1209977/180",
+      "description": "少年萧炎在斗气大陆上的成长与逆袭之路。",
+      "tags": ["玄幻", "热血", "完结"]
+    },
+    {
+      "id": "demo-002",
+      "title": "诡秘之主",
+      "author": "爱潜水的乌贼",
+      "source": "起点中文网",
+      "bookId": "1010868264",
+      "url": "https://www.qidian.com/book/1010868264/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/1010868264/180",
+      "description": "蒸汽与机械的时代，谁能触及非凡？克苏鲁风格奇幻史诗。",
+      "tags": ["奇幻", "克苏鲁", "完结"]
+    },
+    {
+      "id": "demo-003",
+      "title": "全职高手",
+      "author": "蝴蝶蓝",
+      "source": "起点中文网",
+      "bookId": "1887208",
+      "url": "https://www.qidian.com/book/1887208/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/1887208/180",
+      "description": "网游高手叶修退役后，带领团队重返荣耀巅峰。",
+      "tags": ["游戏", "竞技", "完结"]
+    },
+    {
+      "id": "demo-004",
+      "title": "庆余年",
+      "author": "猫腻",
+      "source": "起点中文网",
+      "bookId": "114559",
+      "url": "https://www.qidian.com/book/114559/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/114559/180",
+      "description": "范闲在庙堂与江湖之间书写传奇的权谋故事。",
+      "tags": ["历史", "权谋", "完结"]
+    },
+    {
+      "id": "demo-005",
+      "title": "凡人修仙传",
+      "author": "忘语",
+      "source": "起点中文网",
+      "bookId": "107580",
+      "url": "https://www.qidian.com/book/107580/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/107580/180",
+      "description": "普通少年韩立以平庸资质踏入修仙界的凡人流开山之作。",
+      "tags": ["仙侠", "凡人流", "完结"]
+    },
+    {
+      "id": "demo-006",
+      "title": "遮天",
+      "author": "辰东",
+      "source": "起点中文网",
+      "bookId": "1735921",
+      "url": "https://www.qidian.com/book/1735921/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/1735921/180",
+      "description": "九龙拉棺，叶凡踏入浩瀚修仙界的宏大史诗。",
+      "tags": ["仙侠", "玄幻", "完结"]
+    },
+    {
+      "id": "demo-007",
+      "title": "雪中悍刀行",
+      "author": "烽火戏诸侯",
+      "source": "纵横中文网",
+      "bookId": "189169",
+      "url": "https://www.zongheng.com/detail/189169",
+      "cover": "https://bookcover.yuewen.com/189169/180",
+      "description": "北凉世子徐凤年行走江湖与庙堂的武侠传奇。",
+      "tags": ["武侠", "江湖", "完结"]
+    },
+    {
+      "id": "demo-008",
+      "title": "剑来",
+      "author": "烽火戏诸侯",
+      "source": "纵横中文网",
+      "bookId": "672340",
+      "url": "https://www.zongheng.com/detail/672340",
+      "cover": "https://bookcover.yuewen.com/672340/180",
+      "description": "少年陈平安持剑走天下的仙侠江湖故事。",
+      "tags": ["仙侠", "江湖", "完结"]
+    },
+    {
+      "id": "demo-009",
+      "title": "大奉打更人",
+      "author": "卖报小郎君",
+      "source": "起点中文网",
+      "bookId": "1019664125",
+      "url": "https://www.qidian.com/book/1019664125/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/1019664125/180",
+      "description": "许七安穿越古代，以探案与修仙交织的诙谐叙事。",
+      "tags": ["仙侠", "探案", "完结"]
+    },
+    {
+      "id": "demo-010",
+      "title": "赘婿",
+      "author": "愤怒的香蕉",
+      "source": "起点中文网",
+      "bookId": "1979049",
+      "url": "https://www.qidian.com/book/1979049/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/1979049/180",
+      "description": "现代商业精英穿越成赘婿，在乱世中运筹帷幄。",
+      "tags": ["历史", "商战", "连载"]
+    },
+    {
+      "id": "demo-011",
+      "title": "三体",
+      "author": "刘慈欣",
+      "source": "豆瓣阅读",
+      "bookId": "6088137",
+      "url": "https://read.douban.com/ebook/6088137/",
+      "cover": "https://bookcover.yuewen.com/6088137/180",
+      "description": "地球文明与三体文明的首次接触，硬核科幻里程碑。",
+      "tags": ["科幻", "硬核", "完结"]
+    },
+    {
+      "id": "demo-012",
+      "title": "琅琊榜",
+      "author": "海宴",
+      "source": "晋江文学城",
+      "bookId": "257490",
+      "url": "https://www.jjwxc.net/onebook.php?novelid=257490",
+      "cover": "https://bookcover.yuewen.com/257490/180",
+      "description": "梅长苏昭雪多年冤案、扶持明君的传奇故事。",
+      "tags": ["古言", "权谋", "完结"]
+    },
+    {
+      "id": "demo-013",
+      "title": "天官赐福",
+      "author": "墨香铜臭",
+      "source": "晋江文学城",
+      "bookId": "2718609",
+      "url": "https://www.jjwxc.net/onebook.php?novelid=2718609",
+      "cover": "https://bookcover.yuewen.com/2718609/180",
+      "description": "神官谢怜与鬼王花城的前世今生。",
+      "tags": ["仙侠", "耽美", "完结"]
+    },
+    {
+      "id": "demo-014",
+      "title": "默读",
+      "author": "priest",
+      "source": "晋江文学城",
+      "bookId": "2475908",
+      "url": "https://www.jjwxc.net/onebook.php?novelid=2475908",
+      "cover": "https://bookcover.yuewen.com/2475908/180",
+      "description": "骆闻舟与费渡联手侦破系列悬案。",
+      "tags": ["悬疑", "刑侦", "完结"]
+    },
+    {
+      "id": "demo-015",
+      "title": "龙族Ⅰ：火之晨曦",
+      "author": "江南",
+      "source": "QQ阅读",
+      "bookId": "1045132243",
+      "url": "https://book.qq.com/book-detail/index/book_id/1045132243",
+      "cover": "https://bookcover.yuewen.com/1045132243/180",
+      "description": "路明非收到卡塞尔学院邀请，踏上屠龙之旅。",
+      "tags": ["奇幻", "青春", "完结"]
+    },
+    {
+      "id": "demo-016",
+      "title": "牧神记",
+      "author": "宅猪",
+      "source": "起点中文网",
+      "bookId": "1009704712",
+      "url": "https://www.qidian.com/book/1009704712/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/1009704712/180",
+      "description": "秦牧走出大墟，探索神魔与人族的宏大世界。",
+      "tags": ["玄幻", "东方", "完结"]
+    },
+    {
+      "id": "demo-017",
+      "title": "将夜",
+      "author": "猫腻",
+      "source": "起点中文网",
+      "bookId": "2083259",
+      "url": "https://www.qidian.com/book/2083259/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/2083259/180",
+      "description": "宁缺与桑桑在昊天世界中的修行与信仰之辩。",
+      "tags": ["玄幻", "哲学", "完结"]
+    },
+    {
+      "id": "demo-018",
+      "title": "紫川",
+      "author": "老猪",
+      "source": "起点中文网",
+      "bookId": "20",
+      "url": "https://www.qidian.com/book/20/",
+      "cover": "https://bookcover.yuewen.com/qdbimg/349573/20/180",
+      "description": "紫川家族两百年西川争霸的史诗悲歌。",
+      "tags": ["玄幻", "战争", "完结"]
+    },
+    {
+      "id": "demo-019",
+      "title": "何以笙箫默",
+      "author": "顾漫",
+      "source": "晋江文学城",
+      "bookId": "131808",
+      "url": "https://www.jjwxc.net/onebook.php?novelid=131808",
+      "cover": "https://bookcover.yuewen.com/131808/180",
+      "description": "何以琛与赵默笙七年后再相逢的都市爱情。",
+      "tags": ["言情", "都市", "完结"]
+    },
+    {
+      "id": "demo-020",
+      "title": "盗墓笔记",
+      "author": "南派三叔",
+      "source": "QQ阅读",
+      "bookId": "1000464309",
+      "url": "https://book.qq.com/book-detail/index/book_id/1000464309",
+      "cover": "https://bookcover.yuewen.com/1000464309/180",
+      "description": "吴邪与张起灵等人探索古墓秘密的冒险悬疑长篇。",
+      "tags": ["悬疑", "冒险", "完结"]
+    }
+  ]
+}
