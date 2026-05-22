@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="小说链接聚合搜索 — 仅整理公开链接并跳转至原站，不存储、不转载任何小说内容。" />
+  <meta name="robots" content="index, follow" />
+  <meta name="referrer" content="no-referrer" />
+  <title>书链搜 · 小说链接聚合搜索</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="书链搜 首页">
+        <span class="logo-icon" aria-hidden="true">📚</span>
+        <span class="logo-text">书链搜</span>
+      </a>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="切换深色/浅色模式">
+        <span class="theme-icon theme-icon--light" aria-hidden="true">☀️</span>
+        <span class="theme-icon theme-icon--dark" aria-hidden="true">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <h1 class="hero-title">发现小说，直达原站</h1>
+      <p class="hero-subtitle">聚合公开阅读链接，一键跳转至正版或原发布平台</p>
+
+      <form class="search-form" role="search" id="searchForm">
+        <label for="searchInput" class="visually-hidden">搜索小说名称</label>
+        <div class="search-box">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input
+            type="search"
+            id="searchInput"
+            class="search-input"
+            placeholder="输入小说名称、作者或关键词…"
+            autocomplete="off"
+            enterkeyhint="search"
+          />
+          <button type="button" class="search-clear" id="searchClear" aria-label="清空搜索" hidden>×</button>
+        </div>
+      </form>
+
+      <div class="filter-bar" id="filterBar" hidden>
+        <span class="filter-label">来源筛选</span>
+        <div class="filter-chips" id="filterChips" role="group" aria-label="按来源网站筛选"></div>
+      </div>
+    </section>
+
+    <section class="results-section" aria-live="polite" aria-atomic="false">
+      <div class="results-meta" id="resultsMeta"></div>
+      <div class="results-grid" id="resultsGrid"></div>
+      <div class="state-panel" id="statePanel">
+        <div class="state state--welcome" id="stateWelcome">
+          <div class="state-icon">🔍</div>
+          <p>输入书名开始搜索，或浏览下方热门推荐</p>
+        </div>
+        <div class="state state--loading" id="stateLoading" hidden>
+          <div class="spinner" aria-hidden="true"></div>
+          <p>正在加载书库索引…</p>
+        </div>
+        <div class="state state--empty" id="stateEmpty" hidden>
+          <div class="state-icon">📭</div>
+          <p>未找到匹配的小说</p>
+          <p class="state-hint">试试缩短关键词，或更换作者名搜索</p>
+        </div>
+        <div class="state state--error" id="stateError" hidden>
+          <div class="state-icon">⚠️</div>
+          <p>书库加载失败</p>
+          <p class="state-hint" id="errorMessage"></p>
+          <button type="button" class="btn-retry" id="retryBtn">重新加载</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section class="compliance" id="compliance">
+      <h2 class="compliance-title">合规声明</h2>
+      <p>
+        本站<strong>仅做公开链接整理与搜索跳转</strong>，不存储、不解析、不转载任何小说正文内容。
+        所有封面与简介信息均来自原站公开页面或用户自行维护的元数据，阅读与下载行为均在第三方原网站完成。
+        本站所有流量均导向原网站，符合搜索引擎跳转规则。如有侵权链接，请联系维护者移除。
+      </p>
+    </section>
+    <p class="footer-copy">书链搜 · 纯前端 · 无后端 · 可静态部署</p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
